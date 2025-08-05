@@ -23,4 +23,8 @@ public class Principal{
     for (int i = 0; i < 5000; i++){
         meuPodcast.curte();
     }
+
+    minhasPreferidas preferidas = new minhasPreferidas();
+    preferidas.inclui(meuPodcast);
+    preferidas.inclui(minhaMusica);
 }
